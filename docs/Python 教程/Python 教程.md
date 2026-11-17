@@ -1616,9 +1616,9 @@ S8050三极管字面朝向自己，[引脚](http://www.so.com/s?q=%E5%BC%95%E8%8
 |from microbit import *|导入micro：bit的库文件|
 |-|-|
 |while True:|这是一个永久循环，它使micro：bit永远执行这个循环中的代码。|
-|pin1.write_digital(1) pin2.write_digital(1) pin8.write_digital(1) pin13.write_digital(1) pin14.write_digital(1) pin9.write_digital(1) pin12.write_digital(0)|一位数码管显示0|
+|pin13.write_digital(1)  pin14.write_digital(1)  pin1.write_digital(1) pin2.write_digital(1)  pin8.write_digital(1)  pin12.write_digital(1) pin9.write_digital(0)  pin0.write_digital(0)|一位数码管显示0|
 |sleep(1000)|延时1000毫秒|
-|pin0.write_digital(0) pin1.write_digital(1) pin2.write_digital(0) pin8.write_digital(0) pin9.write_digital(0) pin12.write_digital(0) pin13.write_digital(0) pin14.write_digital(1)|一位数码管显示1（其他的类似）|
+|pin13.write_digital(0)  pin14.write_digital(1)  pin1.write_digital(1) pin2.write_digital(0)  pin8.write_digital(0)  pin12.write_digital(0) pin9.write_digital(0)  pin0.write_digital(0)|一位数码管显示1（其他的类似）|
 |sleep(1000)|延时1000毫秒|
 
 实验结果
