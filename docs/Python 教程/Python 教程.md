@@ -1808,7 +1808,7 @@ code”。在Linux系统上，“mu_code”目录的路径是“~/home/mu_code�
 |Pin.write_digital(0)|将引脚设置为低电平，关闭LED|
 |while True:|这是一个永久循环，它使micro：bit永远执行这个循环中的代码。|
 |State = 0|声明state等于0|
-|if pin0.read_digital() == 1 : sleep(50) if pin0.read_digital() == 1 and State == 0 : pin2.write_digital(1) State = 1 elif pin0.read_digital() == 1 and State == 1 : pin2.write_digital(0) State = 0|判断按键是否按下 延时50ms消抖 再检测按键是否按下与state=0: 是：点亮LED灯 赋值state等于1 再检测按键是否按下与state=1 是：熄灭LED灯 赋值state等于0|
+|if pine.read_digital()== 1: sleep(50）if pine.read_digital()== 1: if state ==θ: pin2.write_digital(1) state =1 else: pin2.write_digital(e)  state =0|判断按键是否按下 延时50ms消抖 再检测按键是否按下与state=0: 是：点亮LED灯 赋值state等于1；否则：熄灭LED灯 赋值state等于0|
 
 实验现象
 
